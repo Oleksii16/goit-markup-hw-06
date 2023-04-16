@@ -793,11 +793,164 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   transition-duration: 250ms;
 }
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+} */
+
+/* ====== форма ======*/
+/*====== p ======*/
+.p-form-index-style {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2E2F42;
+  letter-spacing: 0.02em;
+    margin-top: 72px;
 }
+
+/*====== стиль колонки ======*/
+.input-style-index {
+  Width: 360px;
+  Height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+}
+
+
+.input-style-index:hover, :focus {
+border: 1px solid #4D5AE5;
+}
+
+
+
+
+
+
+
+
+
+
+/*====== дивы инпут индекс =======*/
+
+/* первый ипут */
+.first-input-div {
+  width: 360px;
+  height: 58px;
+  margin-top: 16px;
+  margin-left: 24px;
+    position: relative;
+}
+/* второй инпут */
+.second-input-div {
+  width: 360px;
+    height: 58px;
+    margin-top: 8px;
+    margin-left: 24px;
+    position: relative;
+}
+/* третий инпут */
+.three-input-div {
+  width: 360px;
+  height: 58px;
+  margin-top: 8px;
+  margin-left: 24px;
+  position: relative;
+}
+/* 4 инпут */
+.four-input-div {
+  margin-left: 24px;
+  width: 360px;
+    height: 138px;
+}
+/*================================*/
+
+.style-text-label {
+  height: 58px;
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*=== text area style ===*/
+.style-text-label-four {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 26px;
+  width: 360px;
+  height: 138px;
+
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+.textarea-four-style-index {
+  width: 360px;
+  height: 120px;
+  resize: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+
+
+      /* font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #8E8F99; */
+}
+
+.textarea-four-style-index::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
+
+.textarea-four-style-index::placeholder ~ .svg-icon-modal-index {
+  fill: #31D0AA;
+}
+
+
+/*=== 1 иконка ===*/ 
+.svg-icon-modal-index {
+  position: absolute;
+  left: 14px;
+  top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*============================*/
 
 /*.buttonorder*/
@@ -904,8 +1057,6 @@ text-transform: capitalize;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
 
 .div-twoo-footer{
   display: inline-block;

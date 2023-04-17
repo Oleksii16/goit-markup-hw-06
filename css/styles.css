@@ -828,7 +828,6 @@ border: 1px solid #4D5AE5;
 
 
 
-
 /*====== дивы инпут индекс =======*/
 
 /* первый ипут */
@@ -904,9 +903,9 @@ border: 1px solid #4D5AE5;
     border-radius: 4px;
     color: #FFFFFF;
 }
-.button-label-five:hover, :focus {
+/* .button-label-five:hover, :focus {
     background-color: #404BBF;
-}
+} */
 
 
 

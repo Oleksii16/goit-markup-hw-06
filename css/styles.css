@@ -737,7 +737,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 /*---div modal bg index---*/
 .div-modalbg-index {
   width: 408px;
-  height: 576px;
+  height: 584px;
   background-color: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -808,7 +808,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   text-align: center;
   color: #2E2F42;
   letter-spacing: 0.02em;
-    margin-top: 72px;
+    margin-top: 70px;
 }
 
 /*====== стиль колонки ======*/

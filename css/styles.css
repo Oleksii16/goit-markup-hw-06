@@ -299,8 +299,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 /*---1-LI---*/
 
-
-
 /*-----sekcia 2 1 li div---*/
 .div-li-one-svg {
   display: flex;
@@ -312,8 +310,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   height: 112px;
 }
 /*---svg li 1 ------*/
-
-
 
 
 /*---H3---*/
@@ -419,21 +415,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   padding-bottom: 32px;
 }
 
-
-
-
-
 .sectionfour-li {
   text-align: center;
   background-color: #FFFFFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-
-
-
-
-
 
 /*---UL-SVG----IKONKI----*/
 .social-svg-icons{
@@ -587,8 +574,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   display: inline-block;
   margin-left: 120px;
 }
-
-
 
 .second-div-footer{
   width: 208px;
@@ -827,7 +812,6 @@ border: 1px solid #4D5AE5;
 
 
 
-
 /*====== дивы инпут индекс =======*/
 
 /* первый ипут */
@@ -902,10 +886,21 @@ border: 1px solid #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
+
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
-/* .button-label-five:hover, :focus {
+
+.button-label-five:hover, :focus {
     background-color: #404BBF;
-} */
+} 
+
+
+
+
+
+
 
 
 
@@ -925,6 +920,9 @@ border: 1px solid #4D5AE5;
     flex-wrap: wrap;
 }
 
+
+
+
 /*=== text area style ===*/
 .style-text-label-four {
   display: flex;
@@ -933,13 +931,17 @@ border: 1px solid #4D5AE5;
   margin-left: 24px;
   width: 360px;
   height: 138px;
-
   font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
+.style-text-label-four:hover, :focus {
+  background-color: #FCFCFC;;
+}
+
+
 .textarea-four-style-index {
   width: 360px;
   height: 120px;
@@ -965,14 +967,9 @@ border: 1px solid #4D5AE5;
     font-size: 12px;
 }
 
-
-
-
-
 .textarea-four-style-index::placeholder ~ .svg-icon-modal-index {
   fill: #31D0AA;
 }
-
 
 /*=== 1 иконка ===*/ 
 .svg-icon-modal-index {
@@ -981,6 +978,10 @@ border: 1px solid #4D5AE5;
   top: 17px;
 }
 
+.input-style-index:hover, :focus~.svg-icon-modal-index {
+  fill: #4D5AE5;
+}
+/* =============== */
 
 
 

@@ -588,9 +588,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 /*====== 3 див футер ======*/
 .div-three-footer {
+  position: relative;
   width: 453px;
   height: 80px;
-
+  margin-left: 80px;
 }
 /*====== спан текст ======*/
 .span-div-footer-style {
@@ -603,18 +604,30 @@ font-family: 'Roboto';
   color: #FFFFFF;
   width: 75px;
   height: 24px;
+  display: inline;
+  position: absolute;
 }
 
 .input-div-footer-style {
+  position: absolute;
+  bottom: 0;
   width: 264px;
   height: 40px;
-  border: 1px;
   border: 1px solid #FFFFFF;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   border-radius: 4px;
-  background-color: #2E2F42;
+  background-color: inherit;
+  padding-left: 16px;
 }
-
+.input-text-style-footer::placeholder {
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
 .input-div-footer-style:hover, :focus {
 background-color: #2E2F42;
 border: 1px solid #FFFFFF;
@@ -623,6 +636,41 @@ border: 1px solid #FFFFFF;
 outline: 0px;
 }
 
+/*====== кнопка subscribe footer ======*/
+.button-div-footer-style {
+  position: absolute;
+  bottom: 0;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+  right: 0;
+  width: 165px;
+  height: 40px;
+  background: #4D5AE5;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.04em;
+          transition-property: background-color;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+
+}
+.button-div-footer-style:hover,:focus {
+background-color: #404BBF;
+}
+
+
+/* SVG */
+.svg-button-footer-style {
+  width: 24px;
+  height: 24px;
+  fill: #FFFFFF;
+  margin-left: 16px;
+}
 
 
 
@@ -983,6 +1031,7 @@ border: 1px solid #4D5AE5;
   font-size: 12px;
   font-family: 'Roboto';
 
+
       /* font-weight: 400;
         font-size: 12px;
         line-height: 14px;
@@ -990,10 +1039,16 @@ border: 1px solid #4D5AE5;
         color: #8E8F99; */
 }
 
+.textarea-four-style-index:hover, :focus {
+        border: 1px solid #4D5AE5;
+}
+
+
 .textarea-four-style-index::placeholder {
   color: rgba(46, 47, 66, 0.4);
   font-weight: 400;
     font-size: 12px;
+
 }
 
 .textarea-four-style-index::placeholder ~ .svg-icon-modal-index {

@@ -93,7 +93,6 @@ a {
 }
 
 /*NAV*/
-
 .naw-header-index {
   display: flex;
   align-items: center;
@@ -107,10 +106,7 @@ a {
   margin-left: 76px;
 }
 
-
-
 /*---DIV KONTENER HEADER---*/
-
 .header-div {
   display: flex;
   align-items: center;
@@ -149,7 +145,6 @@ gap: 40px;
 .link:focus{
   color: #404bbf;
 }
-
 
 /*addres_header*/
 .addres_header{
@@ -194,10 +189,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-
-
-
-
 /*---первая картинка---*/
 .card-div-but {
   padding-top: 32px;
@@ -206,8 +197,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
   border: 1px solid #E7E9FC;
   border-top: 0;
 }
-
-
 
 /*---A---*/
 .card-link{
@@ -391,8 +380,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   padding-bottom: 120px;
 }
 
-
-
 /*---H2-SECTION-4---*/
 .h-ourteam {
   margin: 0px;
@@ -484,7 +471,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   gap: 24px;
 }
 
-
 /*---a sekction 5---*/
 .a-section-five-svg {
   display: flex;
@@ -527,12 +513,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transition-duration: 250ms;
 }
 
-/*----HOVER---*/
 .a-social-svg-footer:hover {
   background-color: #31D0AA;
 }
 
-/*---FOCUS---*/
 .a-social-svg-footer:focus {
   background-color: #31D0AA;
 }
@@ -588,13 +572,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 /*====== 3 див футер ======*/
 .div-three-footer {
-  position: relative;
-  width: 453px;
-  height: 80px;
   margin-left: 80px;
 }
-/*====== спан текст ======*/
-.span-div-footer-style {
+/*====== P текст ======*/
+.p-div-footer-style {
 font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -602,21 +583,22 @@ font-family: 'Roboto';
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  width: 75px;
-  height: 24px;
-  display: inline;
-  position: absolute;
+  margin-bottom: 16px;
+}
+
+.form-div-three-footer {
+display: flex;
+gap: 24px;
 }
 
 .input-div-footer-style {
-  position: absolute;
-  bottom: 0;
   width: 264px;
   height: 40px;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   background-color: inherit;
   padding-left: 16px;
+color: #FFFFFF;
 }
 .input-text-style-footer::placeholder {
 font-family: 'Roboto';
@@ -628,18 +610,14 @@ font-family: 'Roboto';
   letter-spacing: 0.04em;
   color: #FFFFFF;
 }
-.input-div-footer-style:hover, :focus {
+.input-div-footer-style:hover, .input-div-footer-style:focus {
 background-color: #2E2F42;
 border: 1px solid #FFFFFF;
-/* outline-color: #2E2F42; */
-/* border-color: #FFFFFF; */
 outline: 0px;
 }
 
 /*====== кнопка subscribe footer ======*/
 .button-div-footer-style {
-  position: absolute;
-  bottom: 0;
       display: flex;
         align-items: center;
         justify-content: center;
@@ -659,7 +637,7 @@ outline: 0px;
             transition-duration: 250ms;
 
 }
-.button-div-footer-style:hover,:focus {
+.button-div-footer-style:hover, .button-div-footer-style:focus {
 background-color: #404BBF;
 }
 
@@ -869,11 +847,11 @@ background-color: #404BBF;
   transition-duration: 250ms;
 }
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
-  /* opacity: 0; */
+  opacity: 0;
   pointer-events: none;
-}
+} */
 
 /* ====== форма ======*/
 /*====== p ======*/
@@ -896,11 +874,9 @@ background-color: #404BBF;
   padding-left: 38px;
 }
 
-.input-style-index:hover, :focus {
+.input-style-index:hover, .input-style-index:focus {
 border: 1px solid #4D5AE5;
 }
-
-
 
 /*====== дивы инпут индекс =======*/
 
@@ -936,7 +912,7 @@ border: 1px solid #4D5AE5;
 }
 
 /*=== 5 лейбл ===*/
-.label-five-index {
+/* .label-five-index {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -946,6 +922,74 @@ border: 1px solid #4D5AE5;
 .input-label-five {
   margin-right: 8px;
 }
+*/
+
+.option {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Check */
+
+.check {
+  padding-left: 1.2em;
+}
+
+.check__input {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.check__box {
+  position: absolute;
+  margin-top: 0.2em;
+  margin-left: -1em;
+  width: 0.6em;
+  height: 0.6em;
+  overflow: hidden;
+  border-radius: 0.05em;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: 0 0 0 0.1em #2E2F42;
+}
+
+/* Checked */
+
+.check__input:checked+.check__box {
+  background-color: #4A90E2;
+  background-image: url(../images/property-hover\ .svg);
+}
+
+/* Focused */
+
+.check__input:focus+.check__box {
+border: 1px solid #404BBF;
+  border-radius: 2px;
+}
+
+/* Disabled */
+
+.check__input:disabled+.check__box {
+  box-shadow: 0 0 0 0.1em #9B9B9B;
+}
+
+.check__input:checked:disabled+.check__box {
+  background-color: #9B9B9B;
+}
+
+
+
+
+
+
+
+
+
+
 
 .span-style-five-label {
   font-weight: 400;
@@ -978,13 +1022,12 @@ border: 1px solid #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
-
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.button-label-five:hover, :focus {
+.button-label-five:hover, .button-label-five:focus {
     background-color: #404BBF;
 } 
 /* ========================= */
@@ -1014,7 +1057,7 @@ border: 1px solid #4D5AE5;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
-.style-text-label-four:hover, :focus {
+.style-text-label-four:hover, .style-text-label-four:focus {
   background-color: #FCFCFC;
 }
 
@@ -1030,16 +1073,9 @@ border: 1px solid #4D5AE5;
   letter-spacing: 0.04em;
   font-size: 12px;
   font-family: 'Roboto';
-
-
-      /* font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.01em;
-        color: #8E8F99; */
 }
 
-.textarea-four-style-index:hover, :focus {
+.textarea-four-style-index:hover, .textarea-four-style-index:focus {
         border: 1px solid #4D5AE5;
 }
 
@@ -1048,7 +1084,6 @@ border: 1px solid #4D5AE5;
   color: rgba(46, 47, 66, 0.4);
   font-weight: 400;
     font-size: 12px;
-
 }
 
 .textarea-four-style-index::placeholder ~ .svg-icon-modal-index {
@@ -1095,6 +1130,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
 }
+
 .sectionfourindex{
   background-color: #F4F4FD;
 }
@@ -1132,7 +1168,6 @@ text-transform: capitalize;
 
 /*---section-1-portfolio---*/
 .sectiononeportfolio {
-  /*width: 1440px;*/
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -1188,7 +1223,6 @@ line-height: 1.5;
 
 .div-flex{
   display: flex;
-
 }
 
 
@@ -1214,7 +1248,6 @@ line-height: 1.5;
   position: relative;
   overflow: hidden;
 }
-
 
 .p-test {
   position: absolute;

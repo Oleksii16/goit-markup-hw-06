@@ -802,6 +802,7 @@ background-color: #404BBF;
   top: 50%;
   transform: translate(-50%, -50%);
   transition-property: transform;
+  padding: 72px 24px 24px;
 }
 /*====================*/
 
@@ -856,22 +857,26 @@ background-color: #404BBF;
 /* ====== форма ======*/
 /*====== p ======*/
 .p-form-index-style {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #2E2F42;
   letter-spacing: 0.02em;
-    margin-top: 70px;
 }
 
 /*====== стиль колонки ======*/
 .input-style-index {
-  Width: 360px;
-  Height: 40px;
+  width: 100%;
+  height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
+    transition-property: border: 1px solid #4D5AE5;
+      ;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
 }
 
 .input-style-index:hover, .input-style-index:focus {
@@ -882,34 +887,31 @@ border: 1px solid #4D5AE5;
 
 /* первый ипут */
 .first-input-div {
-  width: 360px;
-  height: 58px;
-  margin-top: 16px;
-  margin-left: 24px;
     position: relative;
+    margin-bottom: 8px;
 }
 /* второй инпут */
 .second-input-div {
-  width: 360px;
+  /* width: 360px;
     height: 58px;
     margin-top: 8px;
-    margin-left: 24px;
+    margin-left: 24px; */
     position: relative;
 }
 /* третий инпут */
 .three-input-div {
-  width: 360px;
+  /* width: 360px;
   height: 58px;
   margin-top: 8px;
-  margin-left: 24px;
+  margin-left: 24px; */
   position: relative;
 }
 /* 4 инпут */
-.four-input-div {
+/* .four-input-div {
   margin-left: 24px;
   width: 360px;
     height: 138px;
-}
+} */
 
 /*=== 5 лейбл ===*/
 /* .label-five-index {
@@ -926,13 +928,13 @@ border: 1px solid #4D5AE5;
 
 .option {
   display: block;
-  margin-bottom: 0.5em;
+  margin-top: 16px;
 }
 
 /* Check */
 
 .check {
-  padding-left: 1.2em;
+  /* padding-left: 1.2em; */
 }
 
 .check__input {
@@ -945,17 +947,23 @@ border: 1px solid #4D5AE5;
 
 .check__box {
   position: absolute;
-  margin-top: 0.2em;
-  margin-left: -1em;
-  width: 0.6em;
-  height: 0.6em;
+  margin-top: 0px;
+  margin-left: -24px;
+  width: 16px;
+    height: 16px;
   overflow: hidden;
-  border-radius: 0.05em;
+  border-radius: 1px;
   background-color: white;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  box-shadow: 0 0 0 0.1em #2E2F42;
+  /* box-shadow: 0 0 0 0.1em rgba(46, 47, 66, 0.4); */
+  border: 1px solid rgba(46, 47, 66, 0.4);
+
+    transition-property: background-color;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
 }
+/* #2E2F42; */
 
 /* Checked */
 
@@ -967,14 +975,14 @@ border: 1px solid #4D5AE5;
 /* Focused */
 
 .check__input:focus+.check__box {
-border: 1px solid #404BBF;
+  border: 1px solid #404BBF;
   border-radius: 2px;
 }
 
 /* Disabled */
 
 .check__input:disabled+.check__box {
-  box-shadow: 0 0 0 0.1em #9B9B9B;
+  /* box-shadow: 0 0 0 0.1em #9B9B9B; */
 }
 
 .check__input:checked:disabled+.check__box {
@@ -991,13 +999,13 @@ border: 1px solid #404BBF;
 
 
 
-.span-style-five-label {
+/* .span-style-five-label {
   font-weight: 400;
     font-size: 12px;
     line-height: 1.16px;
     letter-spacing: 0.04em;
     color: #8E8F99;
-}
+} */
 
 /*=== privaci polici ===*/
 .a-label-five {
@@ -1033,22 +1041,20 @@ border: 1px solid #404BBF;
 /* ========================= */
 
 .style-text-label {
-  height: 58px;
   font-weight: 400;
     font-size: 12px;
-    line-height: 1.1px;
+    line-height: 1.1;
     letter-spacing: 0.04em;
     color: #8E8F99;
     display: flex;
     flex-wrap: wrap;
+    gap: 4px;
 }
 
 /*=== text area style ===*/
 .style-text-label-four {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 26px;
-  margin-left: 24px;
   width: 360px;
   height: 138px;
   font-weight: 400;
@@ -1073,10 +1079,16 @@ border: 1px solid #404BBF;
   letter-spacing: 0.04em;
   font-size: 12px;
   font-family: 'Roboto';
+
+          transition-property: border: 1px solid #4D5AE5;
+            ;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
 }
 
 .textarea-four-style-index:hover, .textarea-four-style-index:focus {
         border: 1px solid #4D5AE5;
+
 }
 
 
@@ -1093,8 +1105,12 @@ border: 1px solid #404BBF;
 /*=== 1 иконка ===*/ 
 .svg-icon-modal-index {
   position: absolute;
-  left: 14px;
-  top: 17px;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
 }
 
 .input-style-index:hover, :focus~.svg-icon-modal-index {
@@ -1164,7 +1180,7 @@ text-transform: capitalize;
 }
 
 
-/*==================PORTFOLIO======================*/
+/*====== PORTFOLIO======*/
 
 /*---section-1-portfolio---*/
 .sectiononeportfolio {
@@ -1262,7 +1278,20 @@ line-height: 1.5;
 .card-link:hover .p-test, .card-link:focus .p-test {
   transform: translateY(0);
 }
-
-
 /*----------------------------------*/
 
+/*======== form ======*/
+.div-label-one {
+  position: relative;
+  width: 360px;
+  margin-top: 4px;
+}
+
+/*====== div-label-five ======*/
+.div-label-five {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+}
